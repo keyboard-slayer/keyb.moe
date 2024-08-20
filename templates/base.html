@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Keyb's website</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/base.css">
+</head>
+
+<body>
+    <header>
+        <h1>Keyb's website</h1>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            {% block content %}
+            {{section.content | safe}}
+            {% endblock %}
+        </div>
+    </section>
+
+    <footer>
+        <hr />
+        <div id="webring">
+            <a href="https://webring.devse.wiki/keyb.moe/prev">←</a><a href="https://webring.devse.wiki">DevSE
+                webring</a><a href="https://webring.devse.wiki/keyb.moe/next">→</a>
+        </div>
+        <img class="badges" src="/badges/emulate.gif" />
+        <img class="badges" src="/badges/btw.gif" />
+        <img class="badges" src="/badges/js.gif" />
+        <img class="badges" src="/badges/jobsritchie.gif" />
+        <img class="badges" src="/badges/dbd.gif" />
+        <img class="badges" src="/badges/web3.gif" />
+        <img class="badges" src="/badges/microhate.jpg" /><br />
+        <img class="badges" src="/badges/belgian.png" />
+        <img class="badges" src="/badges/100redhead.gif" />
+        <img class="badges" src="/badges/cli.gif" />
+        <img class="badges" src="/badges/copyleft.png" />
+        <img class="badges" src="/badges/hacker_copy2.gif" />
+        <img class="badges" src="/badges/lain_button.png" />
+        <img class="badges" src="/badges/nerv_button.png" /><br />
+        <p>Made with <span id="heart"><3
+            </span> by <a href="https://github.com/keyboard-slayer">Keyb</a></p>
+    </footer>
+</body>
+
+</html>

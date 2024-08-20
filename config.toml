@@ -1,0 +1,8 @@
+base_url = "https://keyb.moe"
+compile_sass = false
+build_search_index = false
+
+[markdown]
+highlight_code = true
+
+[extra]
