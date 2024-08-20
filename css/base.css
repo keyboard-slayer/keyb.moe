@@ -1,0 +1,59 @@
+@import url("/css/font.css");
+
+* {
+    color: #e8e6e3;
+}
+
+header {
+    text-align: center;
+    margin-top: 3vh;
+    font-size: 1.5em;
+    margin-bottom: 8vh;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 2px dotted #e8e6e3;
+}
+
+html {
+    color-scheme: dark;
+}
+
+body {
+    background-color: #131516;
+    font-family: 'nec_apc3';
+}
+
+
+.badges {
+    width: 100px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+span {
+    color: red;
+}
+
+footer > hr {
+    margin-bottom: 3vh;
+}
+
+footer > p {
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+#webring > a {
+    margin-left: 10px;
+}
+
+#webring {
+    margin-bottom: 2vh;
+}
